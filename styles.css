@@ -1,0 +1,32 @@
+th, td {
+    /* border: 1px solid blue; */
+    font-family: sans-serif;
+    font-size: 18px;
+    border-collapse: collapse;
+    padding: 15px 25px;
+    /* border-radius: 5px 5px 5px 5px; */
+    /* column-width: 20px; */
+    border-radius: 10px;
+}
+
+td {
+    text-align: center;
+    background-color: rgb(248, 246, 225);
+    
+}
+
+.tableTitle {
+    font-size: 22px;
+    background-color:rgb(197, 214, 219);
+    border-radius: 10px;
+}
+
+[scope] {
+    background-color:rgb(175, 235, 255);
+    /* border-radius: 10px; */
+}
+
+td:hover, th:hover{
+    background-color:lightcoral;
+    font-size: 24px;
+}
